@@ -15,7 +15,7 @@
 
     <!--login-->
     <string name="prompt_sign_name">姓名</string>
-    <string name="prompt_sign_score">高考位次</string>
+    <string name="prompt_sign_score">高考分数</string>
     <string name="action_login">开始</string>
 
     <!--main-->
