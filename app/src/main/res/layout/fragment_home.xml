@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <!--    <androidx.appcompat.widget.Toolbar-->
+    <!--        android:id="@+id/tb_find"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:minHeight="?attr/actionBarSize"-->
+    <!--        app:title="find"-->
+    <!--        app:titleTextColor="@color/design_default_color_on_primary"-->
+    <!--        android:background="@color/design_default_color_primary"-->
+    <!--        tools:ignore="MissingConstraints" />-->
+    <com.example.newncee.ui.widget.NewToolBar
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:isShowSearchView="true" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:paddingTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        />
+
+</RelativeLayout>
