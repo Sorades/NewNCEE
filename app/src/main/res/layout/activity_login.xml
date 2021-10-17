@@ -77,6 +77,7 @@
         android:id="@+id/txt_course"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="你所选的高考科目有："
         android:textSize="16dp"
         app:layout_constraintTop_toBottomOf="@id/txt_province"
